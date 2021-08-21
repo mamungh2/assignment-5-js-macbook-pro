@@ -51,13 +51,13 @@ document.getElementById('memory-button8GB').addEventListener('click', function (
     memoryCost.innerText = 0;
     updateTotalPrice();
     setGrandTotal();
-})
+});
 document.getElementById('memory-button16GB').addEventListener('click', function () {
     const memoryCost = document.getElementById('memory-cost');
     memoryCost.innerText = 180;
     updateTotalPrice();
     setGrandTotal();
-})
+});
 
 // storage button event handler
 document.getElementById('storage-button256GB').addEventListener('click', function () {
@@ -65,19 +65,19 @@ document.getElementById('storage-button256GB').addEventListener('click', functio
     storageCost.innerText = 0;
     updateTotalPrice();
     setGrandTotal();
-})
+});
 document.getElementById('storage-button512GB').addEventListener('click', function () {
     const storageCost = document.getElementById('storage-cost');
     storageCost.innerText = 100;
     updateTotalPrice();
     setGrandTotal();
-})
+});
 document.getElementById('storage-button1TB').addEventListener('click', function () {
     const storageCost = document.getElementById('storage-cost');
     storageCost.innerText = 180;
     updateTotalPrice();
     setGrandTotal();
-})
+});
 
 // delivery charge event handler
 document.getElementById('delivery-buttonFree').addEventListener('click', function () {
@@ -85,15 +85,15 @@ document.getElementById('delivery-buttonFree').addEventListener('click', functio
     deliveryCost.innerText = 0;
     updateTotalPrice();
     setGrandTotal();
-})
+});
 document.getElementById('delivery-buttonCharge').addEventListener('click', function () {
     const deliveryCost = document.getElementById('delivery-cost');
     deliveryCost.innerText = 20;
     updateTotalPrice();
     setGrandTotal();
-})
+});
 
 // promo button event handler
 document.getElementById('promo-button').addEventListener('click', function () {
     updateGrandTotal();
-})
+});
